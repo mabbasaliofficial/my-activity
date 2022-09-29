@@ -1,8 +1,24 @@
 import React, { useState } from "react";
 import "./Details.css";
 import logo from "./user.png";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Details = (props) => {
+  const diffToast = () => {
+    // alert('this is alert')
+    // toast("Wow so easy!");
+    toast.success('Congratulations! You Have Completed Your Task', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+        
+  };
   const { details } = props;
   let expendTime = 0;
   for (const detail of details) {
@@ -38,19 +54,19 @@ const Details = (props) => {
       <div>
         <h3>Add a break</h3>
         <div className="break-time">
-          <button className="second" onClick={() => addBreakTime('10s')}>
+          <button className="second" onClick={() => addBreakTime("10s")}>
             10s
           </button>
-          <button className="second" onClick={() => addBreakTime('20s')}>
+          <button className="second" onClick={() => addBreakTime("20s")}>
             20s
           </button>
-          <button className="second" onClick={() => addBreakTime('30s')}>
+          <button className="second" onClick={() => addBreakTime("30s")}>
             30s
           </button>
-          <button className="second" onClick={() => addBreakTime('40s')}>
+          <button className="second" onClick={() => addBreakTime("40s")}>
             40s
           </button>
-          <button className="second" onClick={() => addBreakTime('50s')}>
+          <button className="second" onClick={() => addBreakTime("50s")}>
             50s
           </button>
         </div>
@@ -68,7 +84,21 @@ const Details = (props) => {
           <b id="break-time">{brTime}</b>
         </div>
       </div>
-      <button className="btn-completed">Activity Completed</button>
+      <button onClick={diffToast} className="btn-completed">
+        Activity Completed
+      </button>
+      {/* <ToastContainer /> */}
+      <ToastContainer
+        position="top-center"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
     </div>
   );
 };
