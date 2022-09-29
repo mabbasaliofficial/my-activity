@@ -1,19 +1,18 @@
-.activity{
-    width: 15rem;
-    background-color: rgb(216, 237, 253);
-    padding: 1rem;
-    border-radius: 10px;
-
+.activity {
+  width: 15rem;
+  background-color: rgb(216, 237, 253);
+  padding: 1rem;
+  border-radius: 10px;
 }
 .activity img {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
-.btn-add{
-    width: 100%;
-    padding: 10px;
-    border: none;
-    color: white;
-    background-color: darkblue;
-    border-radius: 5px;
+.btn-add {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background-color: darkblue;
+  border-radius: 5px;
 }

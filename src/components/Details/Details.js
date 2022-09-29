@@ -6,18 +6,15 @@ import "react-toastify/dist/ReactToastify.css";
 
 const Details = (props) => {
   const diffToast = () => {
-    // alert('this is alert')
-    // toast("Wow so easy!");
-    toast.success('Congratulations! You Have Completed Your Task', {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        });
-        
+    toast.success("Congratulations! You Have Completed Your Task", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+    });
   };
   const { details } = props;
   let expendTime = 0;
@@ -87,7 +84,6 @@ const Details = (props) => {
       <button onClick={diffToast} className="btn-completed">
         Activity Completed
       </button>
-      {/* <ToastContainer /> */}
       <ToastContainer
         position="top-center"
         autoClose={5000}

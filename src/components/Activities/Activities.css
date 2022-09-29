@@ -1,31 +1,31 @@
-.activities-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 50px;
+.activities-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 50px;
 }
-.activity-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+.activity-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
 }
-.details-container{
+.details-container {
+  background-color: rgb(216, 237, 253);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+@media only screen and (max-width: 768px) {
+  .activities-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .activity-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .details-container {
     background-color: rgb(216, 237, 253);
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-@media only screen and (max-width: 768px){
-    .activities-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .activity-container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .details-container{
-        background-color: rgb(216, 237, 253);
-        border-radius: 10px;
-        position: relative;
-    }
+    border-radius: 10px;
+    position: relative;
+  }
 }
