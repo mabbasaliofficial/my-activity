@@ -4,7 +4,7 @@
         "activity": "Exercise",
         "img": "https://images.pexels.com/photos/39308/runners-silhouettes-athletes-fitness-39308.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Exercise is a body activity that enhances or maintains physical fitness and overall health and wellness.",
-        "time": 420,
+        "time": 20,
         "quantity": 0
       },
       {
@@ -12,7 +12,7 @@
         "activity": "Reading",
         "img": "https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": " You can expect to enhance your knowledge about so many things if you just develop this habit of reading.",
-        "time": 420,
+        "time": 40,
         "quantity": 0
       },
       {
@@ -20,7 +20,7 @@
         "activity": "Breakfast",
         "img": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Breakfast is the first meal of the day usually eaten in the morning. The word in English refers to breaking.",
-        "time": 420,
+        "time": 30,
         "quantity": 0
       },
       {
@@ -28,7 +28,7 @@
         "activity": "Class",
         "img": "https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "A school is an educational institution designed to provide learning spaces and learning environments.",
-        "time": 420,
+        "time": 40,
         "quantity": 0
       },
       {
@@ -36,7 +36,7 @@
         "activity": "Cricket",
         "img": "https://images.pexels.com/photos/9393464/pexels-photo-9393464.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre.",
-        "time": 420,
+        "time": 50,
         "quantity": 0
       },
       {
@@ -44,7 +44,7 @@
         "activity": "Sleep",
         "img": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Sleep is a naturally recurring state of mind and body, characterized by altered consciousness, relatively inhibited.",
-        "time": 420,
+        "time": 50,
         "quantity": 0
       }
 ]

@@ -1,4 +1,5 @@
 .App {
   background-color: whitesmoke;
-  padding-left: 100px;
+  padding-left: 50px;
+  position: relative;
 }
