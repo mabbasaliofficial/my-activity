@@ -2,3 +2,8 @@
   background-color: whitesmoke;
   padding-left: 50px;
 }
+@media only screen and (max-width: 768px){
+  .App {
+    padding: 25px;
+  }
+}

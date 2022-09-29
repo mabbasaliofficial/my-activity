@@ -1,8 +1,5 @@
 .details{
-    padding-top: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 25px;
+    padding: 25px 15px;
     width: 16rem;
 }
 .user-image{
@@ -89,4 +86,10 @@
     border: none;
     background-color: cornflowerblue;
     border-radius: 5px;
+}
+@media only screen and (max-width: 768px){
+    .details{
+        width: 15rem;
+    }
+    
 }

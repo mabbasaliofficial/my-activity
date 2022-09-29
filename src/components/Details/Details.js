@@ -44,11 +44,11 @@ const Details = (props) => {
             <div>
                 <h3>Activity details</h3>
                 <div className='expend-details'>
-                    <h5>Expend time</h5>
-                    <span>{expendTime}<span>s</span></span>
+                    <h4>Expend time</h4>
+                    <span><b>{expendTime}</b> Minutes</span>
                 </div>
                 <div className="break-details">
-                    <h5>Break time</h5>
+                    <h4>Break time</h4>
                     <span>0<span>s</span></span>
                 </div>
             </div>
