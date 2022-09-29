@@ -1,6 +1,6 @@
 .activity{
     width: 15rem;
-    background-color: #fff;
+    background-color: rgb(216, 237, 253);
     padding: 1rem;
     border-radius: 10px;
 
@@ -13,6 +13,7 @@
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: cornflowerblue;
+    color: white;
+    background-color: darkblue;
     border-radius: 5px;
 }

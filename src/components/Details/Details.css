@@ -27,7 +27,7 @@
     margin-top: 50px;
     padding: 10px;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color:white;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,21 +50,25 @@
 .break-time{
     display: flex;
     justify-content: space-between;
-    background-color: whitesmoke;
-    padding: 5px;
+    background-color: white;
+    padding: 10px;
     border-radius: 5px;
 }
 .second{
-    background-color: #fff;
-    padding: 5px;
+    background-color: aliceblue;
+    padding: 10px;
     border: none;
     border-radius: 20px;
+}
+.second:focus{
+    background-color: darkblue;
+    color: white;
 }
 .expend-details{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 0 10px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -74,7 +78,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: whitesmoke;
+    background-color: white;
     padding: 0 10px;
     border-radius: 5px;
     margin-bottom: 25px;
@@ -84,7 +88,8 @@
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: cornflowerblue;
+    color: white;
+    background-color: darkblue;
     border-radius: 5px;
 }
 @media only screen and (max-width: 768px){

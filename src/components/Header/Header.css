@@ -3,12 +3,12 @@
     align-items: center;
 }
 .header-icon{
-    width: 50px;
-    padding-right: 5px;
-    color: cornflowerblue;
+    margin-right: 5px;
+    font-size: 30px;
+    color: darkblue;
 }
 .header-text{
-    font-size: 35px;
-    color: cornflowerblue;
-    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 30px;
+    color: darkblue;
 }
