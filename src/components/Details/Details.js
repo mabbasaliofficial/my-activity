@@ -2,7 +2,12 @@ import React from 'react';
 import './Details.css'
 import logo from './user.png'
 
-const Details = () => {
+const Details = (props) => {
+    const {details} = props;
+    let expendTime = 0;
+    for (const detail of details){
+        expendTime = expendTime + detail.time;
+    }
     return (
         <div className='details'>
             <div className='user-details'>
@@ -40,7 +45,7 @@ const Details = () => {
                 <h3>Activity details</h3>
                 <div className='expend-details'>
                     <h5>Expend time</h5>
-                    <span>0<span>s</span></span>
+                    <span>{expendTime}<span>s</span></span>
                 </div>
                 <div className="break-details">
                     <h5>Break time</h5>

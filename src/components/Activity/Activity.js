@@ -2,16 +2,19 @@ import React from 'react';
 import './Activity.css'
 
 const Activity = (props) => {
-    const {img, activity, details, time,}= props.activity;
+    const {activity, addToList} = props;
+    // console.log(addToList)
+    
+    const {img, activities, details, time,}= activity;
     return (
         <div className='activity'>
             <img src={img} alt="" />
             <div>
-                <h3>{activity}</h3>
+                <h3>{activities}</h3>
                 <p>{details}</p>
                 <p>Time: {time}s</p>
             </div>
-            <button className='btn-add'>Add To List</button>
+            <button onClick={() => addToList(activity)} className='btn-add'>Add To List</button>
         </div>
     );
 };

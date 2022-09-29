@@ -1,15 +1,15 @@
 [
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "activity": "Exercise",
+        "activities": "Exercise",
         "img": "https://images.pexels.com/photos/39308/runners-silhouettes-athletes-fitness-39308.jpeg?auto=compress&cs=tinysrgb&w=600",
-        "details": "Exercise is a body activity that enhances or maintains physical fitness and overall health and wellness.",
+        "details": "Exercise is a body activities that enhances or maintains physical fitness and overall health and wellness.",
         "time": 20,
         "quantity": 0
       },
       {
         "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-        "activity": "Reading",
+        "activities": "Reading",
         "img": "https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": " You can expect to enhance your knowledge about so many things if you just develop this habit of reading.",
         "time": 40,
@@ -17,7 +17,7 @@
       },
       {
         "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-        "activity": "Breakfast",
+        "activities": "Breakfast",
         "img": "https://images.pexels.com/photos/103124/pexels-photo-103124.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Breakfast is the first meal of the day usually eaten in the morning. The word in English refers to breaking.",
         "time": 30,
@@ -25,7 +25,7 @@
       },
       {
         "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-        "activity": "Class",
+        "activities": "Class",
         "img": "https://images.pexels.com/photos/5212329/pexels-photo-5212329.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "A school is an educational institution designed to provide learning spaces and learning environments.",
         "time": 40,
@@ -33,7 +33,7 @@
       },
       {
         "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
-        "activity": "Cricket",
+        "activities": "Cricket",
         "img": "https://images.pexels.com/photos/9393464/pexels-photo-9393464.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the centre.",
         "time": 50,
@@ -41,7 +41,7 @@
       },
       {
         "id": "6e5593d3-557b-43cf-8dab-a5140faedfb0",
-        "activity": "Sleep",
+        "activities": "Sleep",
         "img": "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg?auto=compress&cs=tinysrgb&w=600",
         "details": "Sleep is a naturally recurring state of mind and body, characterized by altered consciousness, relatively inhibited.",
         "time": 50,
