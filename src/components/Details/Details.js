@@ -1,8 +1,9 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Details.css";
 import logo from "./user.png";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { addLocalStorage, getStorage } from "../../utilities/localStorage";
 
 const Details = (props) => {
   const diffToast = () => {
@@ -24,7 +25,13 @@ const Details = (props) => {
   const [brTime, setBrTime] = useState([]);
   const addBreakTime = (e) => {
     setBrTime(e);
-  };
+    addLocalStorage(e)
+};
+
+useEffect(() => {
+      const storage = getStorage();
+        setBrTime(storage.id)
+  },[])
   return (
     <div className="details">
       <div className="user-details">
