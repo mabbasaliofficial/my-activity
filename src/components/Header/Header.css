@@ -1,16 +1,14 @@
 .header-container{
     display: flex;
     align-items: center;
-    margin-top: 50px;
-    margin-left: 100px;
 }
 .header-icon{
     width: 50px;
-    margin: 10px;
+    padding-right: 5px;
     color: cornflowerblue;
 }
 .header-text{
     font-size: 35px;
     color: cornflowerblue;
-    margin: 10px;
+    padding-left: 5px;
 }
