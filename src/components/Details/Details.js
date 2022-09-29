@@ -38,19 +38,19 @@ const Details = (props) => {
       <div>
         <h3>Add a break</h3>
         <div className="break-time">
-          <button className="second" onClick={() => addBreakTime(10)}>
+          <button className="second" onClick={() => addBreakTime('10s')}>
             10s
           </button>
-          <button className="second" onClick={() => addBreakTime(20)}>
+          <button className="second" onClick={() => addBreakTime('20s')}>
             20s
           </button>
-          <button className="second" onClick={() => addBreakTime(30)}>
+          <button className="second" onClick={() => addBreakTime('30s')}>
             30s
           </button>
-          <button className="second" onClick={() => addBreakTime(40)}>
+          <button className="second" onClick={() => addBreakTime('40s')}>
             40s
           </button>
-          <button className="second" onClick={() => addBreakTime(50)}>
+          <button className="second" onClick={() => addBreakTime('50s')}>
             50s
           </button>
         </div>
@@ -65,7 +65,7 @@ const Details = (props) => {
         </div>
         <div className="break-details">
           <h4>Break time</h4>
-          <span id="break-time"><b>{brTime}</b>s</span>
+          <b id="break-time">{brTime}</b>
         </div>
       </div>
       <button className="btn-completed">Activity Completed</button>
